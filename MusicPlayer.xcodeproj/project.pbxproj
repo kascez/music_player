@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B69DC0132316CF4100B37C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC0122316CF4100B37C79 /* AppDelegate.swift */; };
-		B69DC0152316CF4100B37C79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC0142316CF4100B37C79 /* ViewController.swift */; };
 		B69DC0182316CF4100B37C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69DC0162316CF4100B37C79 /* Main.storyboard */; };
 		B69DC01A2316CF4100B37C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69DC0192316CF4100B37C79 /* Assets.xcassets */; };
 		B69DC01D2316CF4100B37C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69DC01B2316CF4100B37C79 /* LaunchScreen.storyboard */; };
 		B69DC0282316CF4100B37C79 /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC0272316CF4100B37C79 /* MusicPlayerTests.swift */; };
 		B69DC0332316CF4100B37C79 /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC0322316CF4100B37C79 /* MusicPlayerUITests.swift */; };
+		B69DC0412316CFBB00B37C79 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC0402316CFBB00B37C79 /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		B69DC00F2316CF4100B37C79 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69DC0122316CF4100B37C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B69DC0142316CF4100B37C79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B69DC0172316CF4100B37C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B69DC0192316CF4100B37C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B69DC01C2316CF4100B37C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		B69DC02E2316CF4100B37C79 /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69DC0322316CF4100B37C79 /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		B69DC0342316CF4100B37C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B69DC0402316CFBB00B37C79 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				B69DC0122316CF4100B37C79 /* AppDelegate.swift */,
-				B69DC0142316CF4100B37C79 /* ViewController.swift */,
 				B69DC0162316CF4100B37C79 /* Main.storyboard */,
+				B69DC0402316CFBB00B37C79 /* GenreButtonScreen.swift */,
 				B69DC0192316CF4100B37C79 /* Assets.xcassets */,
 				B69DC01B2316CF4100B37C79 /* LaunchScreen.storyboard */,
 				B69DC01E2316CF4100B37C79 /* Info.plist */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B69DC0152316CF4100B37C79 /* ViewController.swift in Sources */,
 				B69DC0132316CF4100B37C79 /* AppDelegate.swift in Sources */,
+				B69DC0412316CFBB00B37C79 /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
